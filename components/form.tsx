@@ -80,7 +80,7 @@ const Form = () => {
           <div className='text-lg '>Whatsapp for Details</div>
           <div className='flex gap-2 items-center text-orange-600 font-bold text-lg'><IoLogoWhatsapp className='text-xl text-green-600' /><div>+91-7976693878</div></div>
           <div className='text-lg '>Email us at</div>
-          <div className='flex gap-2 items-center text-orange-600  font-bold text-lg'><IoLogoWhatsapp className='text-xl text-green-600' /><div>info@vivaindia.asia</div></div>
+          <div className='flex gap-2 items-center text-orange-600  font-bold text-lg'><IoLogoWhatsapp className='text-xl text-green-600' /><div>tourszeelan@gmail.com</div></div>
         </div>
       </div>
       <form className='w-fit' onSubmit={handleSubmit}>

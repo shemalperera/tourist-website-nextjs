@@ -5,3 +5,62 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Swiper Navigation Arrows Styling */
+.swiper-button-next,
+.swiper-button-prev {
+  color: white !important;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 30px !important;
+  border-radius: 50%;
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 20px !important;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Slider Text Animations */
+@keyframes slideFromTop {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideFromBottom {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Reset animation when slide is not active */
+.slide-headline,
+.slide-subheadline {
+  opacity: 0;
+}
+
+/* Trigger animations when slide becomes active */
+.swiper-slide-active .slide-headline {
+  animation: slideFromTop 0.8s ease-out forwards;
+}
+
+.swiper-slide-active .slide-subheadline {
+  animation: slideFromBottom 0.8s ease-out 0.3s forwards;
+}

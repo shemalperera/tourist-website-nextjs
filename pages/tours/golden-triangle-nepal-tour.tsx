@@ -256,7 +256,7 @@ const GoldenTraingleNepal = () => {
                     <div className="grid grid-cols-1 gap-2 max-lg:p-2">
                         <div className='flex flex-col  border border-gray-400 rounded-xl font-Roboto'>
                             <div className='flex justify-between items-center p-4'>
-                                <div className='flex items-center gap-4'><div className=" text-white max-lg:text-sm rounded-md p-2 bg-purple-700 ">Day - 01</div><div className="max-lg:text-sm max-lg:text-left max-lg:overflow-hidden max-lg:w-52">NEW DELHI - Welcome to VIVA India</div></div>
+                                <div className='flex items-center gap-4'><div className=" text-white max-lg:text-sm rounded-md p-2 bg-purple-700 ">Day - 01</div><div className="max-lg:text-sm max-lg:text-left max-lg:overflow-hidden max-lg:w-52">NEW DELHI - Welcome to Zeelan Tours</div></div>
                                 <div className='flex items-center'>{(!showDay1) ? <button onClick={() => setshowDay1(!showDay1)}><AiOutlinePlusCircle className='max-lg:text-2xl lg:text-3xl text-gray-700' /></button> : <></>}
                                     {(showDay1) ? <button onClick={() => setshowDay1(!showDay1)}><AiFillMinusCircle className=' max-lg:text-2xl lg:text-3xl text-redmix' /></button> : <></>}
                                 </div>
@@ -386,7 +386,7 @@ const GoldenTraingleNepal = () => {
                             </div>
                             <div>
                                 {(showDay10) ?
-                                    <div className='text-justify font-Poppins p-4 transition duration-150 ease-in-out leading-8'>After Breakfast. In the morning departure for the flight to New Delhi. You will receive by the representative of VIVA India. Arrival in Delhi and check-in in hotel. Over Night stay at the Hotel.</div> : <></>}
+                                    <div className='text-justify font-Poppins p-4 transition duration-150 ease-in-out leading-8'>After Breakfast. In the morning departure for the flight to New Delhi. You will receive by the representative of Zeelan Tours. Arrival in Delhi and check-in in hotel. Over Night stay at the Hotel.</div> : <></>}
                             </div>
                         </div>
 

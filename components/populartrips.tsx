@@ -1,7 +1,14 @@
-import Image from 'next/image';
-import { AiOutlineArrowRight } from 'react-icons/ai';
+import Image from 'next/image'
+import { AiOutlineArrowRight } from 'react-icons/ai'
 
-const PopularTrips = () => {
+type DestinationCard = {
+  slug: string
+  name: string
+  shortDescription?: string
+  imageUrl: string
+}
+
+const PopularTrips = ({ destinations }: { destinations: DestinationCard[] }) => {
    
   return (
     <div>
@@ -11,59 +18,23 @@ const PopularTrips = () => {
         </div>
     
 <div className='grid grid-cols-4 p-11'>
-<div className='flex flex-col gap-2 bg-white  shadow-slate-200 p-1 h-84'>
-<div>
-  <Image className='h-72 rounded-lg'
-  src={'/asset/image/tours-2.webp'}
-  alt='india'
-  width={500}
-  height={500}
-  />
- 
-</div>
-<div className='flex mx-auto text-3xl font-serif font-semibold'>Delhi</div>
-</div>
-
-
-<div className='flex flex-col gap-2 bg-white  shadow-slate-200 p-1 h-84'>
-<div>
-  <Image className='h-72 rounded-lg'
-  src={'/asset/tours/golden-traingle/alberthall.jpg'}
-  alt='agra'
-  width={500}
-  height={500}
-  />
- 
-</div>
-<div className='flex mx-auto text-3xl font-serif font-semibold'>Jaipur</div>
-</div>
-
-
-<div className='flex flex-col gap-2 bg-white  shadow-slate-200 p-1 h-84'>
-<div>
-  <Image className='h-72 rounded-lg'
-  src={'/asset/image/varanasi.webp'}
-  alt='agra'
-  width={500}
-  height={500}
-  />
- 
-</div>
-<div className='flex mx-auto text-3xl font-serif font-semibold'>Varanasi Ganges</div>
-</div>
-
-  <div className='flex flex-col gap-2 bg-white  shadow-slate-200 p-1 h-84'>
-<div>
-  <Image className='h-72 rounded-lg'
-  src={'/asset/tours/golden-traingle/taj-mahal.jpg'}
-  alt='agra'
-  width={500}
-  height={500}
-  />
- 
-</div>
-<div className='flex mx-auto text-3xl font-serif font-semibold'>Agra</div>
-</div>
+  {destinations.map((destination) => (
+    <div
+      key={destination.slug}
+      className='flex flex-col gap-2 bg-white shadow-slate-200 p-1 h-84'
+    >
+      <div>
+        <Image
+          className='h-72 rounded-lg'
+          src={destination.imageUrl}
+          alt={destination.name}
+          width={500}
+          height={500}
+        />
+      </div>
+      <div className='flex mx-auto text-3xl font-serif font-semibold'>{destination.name}</div>
+    </div>
+  ))}
 </div>
 </div>
   )

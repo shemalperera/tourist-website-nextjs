@@ -6,15 +6,15 @@ export default async function handler(req: any, res: any) {
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: "nikhilrajput243@gmail.com",
-      pass: "wamyhqnzhxyqupoj",
+      user: process.env.MAIL_USER,
+      pass: process.env.MAIL_PASS,
     },
   });
 
   try {
     await transporter.sendMail({
       from: `${name} <${email}>`,
-      to: "ruhipatel243@gmail.com , info@vivaindia.asia",
+      to: process.env.MAIL_TO,
       subject: 'Client Query',
       text: `Client Details: 
       Client Name : ${name}

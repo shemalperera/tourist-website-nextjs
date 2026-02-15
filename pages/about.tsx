@@ -17,13 +17,12 @@ const Aboutus = () => {
           {(showForm) ?
             <div className=' max-md:hidden flex fixed z-50 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'><Form /><button className='flex' onClick={() => setshowForm(!showForm)}><AiFillCloseCircle className=' text-2xl' /></button></div> : <></>}
  
-            <div ><button className='flex bg-redmix text-white font-Roboto p-4 w-fit z-50 items-center text-xl gap-1 h-11 fixed bottom-11 right-6' onClick={() => setshowForm(!showForm)}><div className='text-white'><AiOutlineForm /></div> <div>Contact Us</div></button></div>
         <div className='mx-11 my-20 space-y-7'>
     <div className='grid grid-cols-1 text-center text-3xl font-bold'>About Us</div>
   <div>
     <p>
-Namaste and Greetings from VIVA India Travel & Tourism Travel Agency for India!!!!
-VIVA India tour operator is a local company specializing in India tours and organizes Holidays and sightseeing tours in India, Nepal, Tibet and Bhutan.
+Namaste and Greetings from Zeelan Tours Travel & Tourism Travel Agency for India!!!!
+Zeelan Tours tour operator is a local company specializing in India tours and organizes Holidays and sightseeing tours in India, Nepal, Tibet and Bhutan.
 </p>
 
 </div>
@@ -72,7 +71,7 @@ Important Note about Passports & Visas:-</h1>
 </p>
   </div>
   <div>
-  <p>Welcome to VIVA India.
+  <p>Welcome to Zeelan Tours.
 </p>
 
   </div>

@@ -10,7 +10,7 @@ const Terms = () => {
             </div>
         <div className='mx-11 my-24 space-y-7'>
         <div className='grid grid-cols-1 text-center text-3xl font-bold'>
-        The Privacy Policy of VIVA INDIA Travel Agency Travel for India:-
+        The Privacy Policy of Zeelan Tours Travel Agency Travel for India:-
         </div>
         <div>
         <h1>
@@ -19,7 +19,7 @@ Passports & Visas:-</h1>
 </p>
         </div>
         <div>
-            <h1>All terms and conditions for booking with VIVA India:-</h1>
+            <h1>All terms and conditions for booking with Zeelan Tours:-</h1>
             <p>To confirm the reservation, you will need to make an advance payment for the trip per person, Payment can be processed online through our secure server website, We accept all major debit/credit cards, You can also make a deposit or bank transfer to our bank account (Details will be provided to know your choice to pay). Once you make the advance payment you will receive proof of payment from our account department and we will keep you informed of your travel reservations.
 </p>
         </div>
@@ -62,7 +62,7 @@ Please note that the cost of the vehicle (car/coaches with driver) does not incl
             
 Cancellation and refund policy: -</h1>
         <p>
-        We deeply regret your decision to cancel your trip to India. however, we realize that there are many valid reasons that can happen. Cancellation must be notified in writing to VIVA India. The following cancellation fees will apply:-</p>
+        We deeply regret your decision to cancel your trip to India. however, we realize that there are many valid reasons that can happen. Cancellation must be notified in writing to Zeelan Tours. The following cancellation fees will apply:-</p>
         </div>
 
         <div>
@@ -71,7 +71,7 @@ Cancellation and refund policy: -</h1>
             
             Cancellation charges and refund policy: -</h1>
         <p>
-        We deeply regret your decision to cancel your trip to India, however we realize that there are many valid reasons that can occur. Cancellation must be notified in writing by email and will take effect on the day it is received by VIVA India.</p>
+        We deeply regret your decision to cancel your trip to India, however we realize that there are many valid reasons that can occur. Cancellation must be notified in writing by email and will take effect on the day it is received by Zeelan Tours.</p>
         </div>
 <div>
     <ul className=' list-disc'>
@@ -99,11 +99,11 @@ In the event of a refund, the bank transaction charges will be deducted from the
     Our responsibility:-
     </h1>
     <p>
-    VIVA India accepts responsibility for those holiday arrangements which are entirely within our control and therefore accepts liability to clients for the negligence of our employees. However, we would like to draw your attention to the following circumstances, which are beyond our direct control or where, for some reason, we are not prepared to accept responsibility.
+    Zeelan Tours accepts responsibility for those holiday arrangements which are entirely within our control and therefore accepts liability to clients for the negligence of our employees. However, we would like to draw your attention to the following circumstances, which are beyond our direct control or where, for some reason, we are not prepared to accept responsibility.
     </p>
     <p>The Company will, under no circumstances, be liable to the client or any person traveling with him or her for: Any death/death, personal injury, sickness accident, delay due to loss, inconvenience, increased expenses, consequential loss and/or damage or thefts, regardless of the cause.</p>
 <p>The Company will, under no circumstances, be liable to the client or any person traveling with him or her for: Any death/death, personal injury, sickness accident, delay due to loss, inconvenience, increased expenses, consequential loss and/or damage or thefts, regardless of the cause.</p>
-<p>VIVA India does not have any insurance policy that covers expenses due to accident, illness, loss due to theft or any other reason. Visitors are advised to seek such insurance arrangements in their home country. All baggage and personal property at all times are at the clients risk.</p>
+<p>Zeelan Tours does not have any insurance policy that covers expenses due to accident, illness, loss due to theft or any other reason. Visitors are advised to seek such insurance arrangements in their home country. All baggage and personal property at all times are at the clients risk.</p>
 
 </div>
 <div>
@@ -113,8 +113,8 @@ In the event of a refund, the bank transaction charges will be deducted from the
 
 <div>
     <h1>The complaints:-</h1>
-    <p>We do our best to provide the best service to passengers traveling on any of our vacations, a pleasant and hassle-free vacation, but from time to time plans go awry. If you have any complaints, please speak/inform your VIVA India Tour Manager who will do his best to resolve the matter immediately. You will have 24 hour access to talk to us. You can call us at +91-79776693878</p>
-    <p>VIVA India may change this policy from time to time by updating this page. You may check this page from time to time to ensure that you are happy with any changes. This policy is effective as of NOv 1, 2022.</p>
+    <p>We do our best to provide the best service to passengers traveling on any of our vacations, a pleasant and hassle-free vacation, but from time to time plans go awry. If you have any complaints, please speak/inform your Zeelan Tours Tour Manager who will do his best to resolve the matter immediately. You will have 24 hour access to talk to us. You can call us at +91-79776693878</p>
+    <p>Zeelan Tours may change this policy from time to time by updating this page. You may check this page from time to time to ensure that you are happy with any changes. This policy is effective as of NOv 1, 2022.</p>
 <p>
 Welcome to India Travel from USA, Mexico, Spain, Colombia, Argentina, Uruguay, Chile, Peru, Costa Rica, Puerto Rico, Paraguay, Ecuador, Guatemala, Panama, Brazil, Portugal.</p>
 </div>

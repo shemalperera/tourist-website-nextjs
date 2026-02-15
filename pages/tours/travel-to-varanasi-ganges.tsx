@@ -261,7 +261,7 @@ const NorthIndiaTour = () => {
                     <div className="grid grid-cols-1 gap-2 max-lg:p-2">
                         <div className='flex flex-col  border border-gray-400 rounded-xl font-Roboto'>
                             <div className='flex justify-between items-center p-4'>
-                                <div className='flex items-center gap-4'><div className=" text-white max-lg:text-sm rounded-md p-2 bg-purple-700 ">Day - 01</div><div className="max-lg:text-sm max-lg:text-left max-lg:overflow-hidden max-lg:w-52">NEW DELHI - Welcome to VIVA India</div></div>
+                                <div className='flex items-center gap-4'><div className=" text-white max-lg:text-sm rounded-md p-2 bg-purple-700 ">Day - 01</div><div className="max-lg:text-sm max-lg:text-left max-lg:overflow-hidden max-lg:w-52">NEW DELHI - Welcome to Zeelan Tours</div></div>
                                 <div className='flex items-center'>{(!showDay1) ? <button onClick={() => setshowDay1(!showDay1)}><AiOutlinePlusCircle className='max-lg:text-2xl lg:text-3xl text-gray-700' /></button> : <></>}
                                     {(showDay1) ? <button onClick={() => setshowDay1(!showDay1)}><AiFillMinusCircle className=' max-lg:text-2xl lg:text-3xl text-redmix' /></button> : <></>}
                                 </div>
@@ -349,7 +349,7 @@ const NorthIndiaTour = () => {
                             </div>
                             <div>
                                 {(showDay7) ?
-                                    <div className='text-justify font-Poppins p-4 transition duration-150 ease-in-out leading-8'>After Breakfast, In the morning transfer to Railway station to take the train for Jhansi. Arrival at Jhansi you will be received by the representative of VIVA INDIA. On the way we will Visiting the cities Jhansi and Orchha. Orchha is a historical town, it has a richly illustrated history that spans several centuries. We will visit the Fort of Orchha and the temple of Ram Raja. In the afternoon, Arrived at Khajuraho and This city is known for the temples that display the creative Hindu architecture. The temples also known as Kamasutra temple. The temples were built between the 10th and 11th centuries. Over Night stay at the Hotel.</div> : <></>}
+                                    <div className='text-justify font-Poppins p-4 transition duration-150 ease-in-out leading-8'>After Breakfast, In the morning transfer to Railway station to take the train for Jhansi. Arrival at Jhansi you will be received by the representative of Zeelan Tours. On the way we will Visiting the cities Jhansi and Orchha. Orchha is a historical town, it has a richly illustrated history that spans several centuries. We will visit the Fort of Orchha and the temple of Ram Raja. In the afternoon, Arrived at Khajuraho and This city is known for the temples that display the creative Hindu architecture. The temples also known as Kamasutra temple. The temples were built between the 10th and 11th centuries. Over Night stay at the Hotel.</div> : <></>}
                             </div>
                         </div>
 

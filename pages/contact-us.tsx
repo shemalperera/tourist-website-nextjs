@@ -21,7 +21,7 @@ const ContactUs = () => {
               GET IN TOUCH WITH US
             </h2>
             <p className="text-body-color mb-9 text-base leading-relaxed">
-            VIVA India is an Indian company specializing in travel tourism.
+            Zeelan Tours is an Indian company specializing in travel tourism.
  that organizes Holidays & sightseeing trips in India, Nepal, Tibet and Bhutan.
             </p>
             <div className="mb-8 flex w-full max-w-[370px]">
@@ -44,7 +44,7 @@ const ContactUs = () => {
               
               <div className="w-full">
                 <h4 className="text-dark mb-1 text-xl font-bold">Email Address</h4>
-                <p className="text-body-color text-base">info@vivaindia.asia</p>
+                <p className="text-body-color text-base">tourszeelan@gmail.com</p>
               </div>
             </div>
           </div>

@@ -45,6 +45,7 @@ const Slider = ({ slides }: { slides: Slide[] }) => {
                 src={slide.imageUrl}
                 alt={slide.headline || 'slide image'}
                 fill
+                sizes="100vw"
                 unoptimized
               />
               {(slide.headline || slide.subheadline) && (

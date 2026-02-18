@@ -15,10 +15,24 @@ const Header = () => {
       <div className='hidden lg:block bg-blue-900 text-white'>
         <div className='max-w-7xl mx-auto px-4 py-2'>
           <div className='flex items-center gap-6 text-sm'>
-            <a href="tel:+94762304197" className='flex items-center gap-2 hover:text-blue-200 transition-colors'>
-              <BsTelephone className='text-base' />
-              <span>+94 76 230 4197</span>
-            </a>
+            <div className="flex items-center gap-2">
+  <a
+    href="tel:+94762304197"
+    className="inline-flex items-center gap-1 hover:text-blue-200 transition-colors"
+  >
+    <BsTelephone className="text-base" />
+    <span>+94 76 230 4197</span>
+  </a>
+
+  <span className="text-gray-300 leading-none">/</span>
+
+  <a
+    href="tel:+393312953653"
+    className="inline-flex items-center gap-1 hover:text-blue-200 transition-colors"
+  >
+    <span>+39 331 295 3653</span>
+  </a>
+</div>
             <a href="mailto:tourszeelan@gmail.com" className='flex items-center gap-2 hover:text-blue-200 transition-colors'>
               <AiOutlineMail className='text-base' />
               <span>tourszeelan@gmail.com</span>
@@ -29,7 +43,7 @@ const Header = () => {
 
       {/* Main Header */}
       <div className='max-w-7xl mx-auto px-4'>
-        <div className='flex items-center justify-between py-4'>
+        <div className='flex items-center justify-between py-2'>
           {/* Logo */}
           <Link href="/">
             <div className="flex">
@@ -37,8 +51,9 @@ const Header = () => {
                 className='p-2'
                 src={sitelogo}
                 alt="site logo"
-                height={20}
+                height={5}
                 width={190}
+                style={{ width: 'auto' }}
               />
             </div>
           </Link>
@@ -50,16 +65,16 @@ const Header = () => {
                 <Link href="/">Home</Link>
               </li>
               <li className='hover:text-blue-600 transition-colors'>
-                <Link href="/alltours">All Tours</Link>
+                <Link href="/alltours">Tours</Link>
               </li>
               <li className='hover:text-blue-600 transition-colors'>
-                <Link href="/destination">Destination</Link>
+                <Link href="/destination">Destinations</Link>
               </li>
               <li className='hover:text-blue-600 transition-colors'>
                 <Link href="/blogs">Blogs</Link>
               </li>
               <li className='hover:text-blue-600 transition-colors'>
-                <Link href="/about">About Us</Link>
+                <Link href="/about">About</Link>
               </li>
               <li className='hover:text-blue-600 transition-colors'>
                 <Link href="/contact-us">Contact</Link>

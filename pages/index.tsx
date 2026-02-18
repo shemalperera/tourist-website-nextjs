@@ -126,10 +126,9 @@ export async function getStaticProps() {
 
   const heroSlides: HeroSlide[] =
     homepageRes?.data?.heroslide?.map((slide: any) => {
-      const img = slide?.image;
       return {
         id: slide?.id ?? Math.floor(Math.random() * 1e9),
-        imageUrl: img?.url ? `${strapiUrl}${img.url}` : '/asset/image/slide1.webp',
+        imageUrl: slide?.imageURL || '/asset/image/slide1.webp',
         headline: slide?.headline ?? '',
         subheadline: slide?.subheadline ?? '',
       };

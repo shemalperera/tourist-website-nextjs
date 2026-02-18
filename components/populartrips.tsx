@@ -13,7 +13,7 @@ const PopularTrips = ({ destinations }: { destinations: DestinationCard[] }) => 
   return (
     <div>
       <div className="grid grid-cols-1 gap-1 p-2 mt-4">
-        <div className='mx-auto text-4xl p-2'>Popular Destination</div>
+        <div className='mx-auto text-4xl lg:text-4xl font-bold text-gray-800'>Popular Destinations</div>
         <div className='flex items-center mx-auto text-sm font-semibold text-red-500 hover:text-cyan-700 hover:cursor-pointer'>View all Destination<AiOutlineArrowRight/></div>
         </div>
     

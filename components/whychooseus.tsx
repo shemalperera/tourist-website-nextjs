@@ -9,7 +9,7 @@ const WhyChooseUs = () => {
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-12 items-center'>
           {/* Left Content */}
           <div className='space-y-6'>
-            <h2 className='text-4xl lg:text-5xl font-bold text-gray-800'>
+            <h2 className='text-4xl lg:text-4xl font-bold text-gray-800'>
               Why Choose <span className='text-blue-600'>Zeelan Tours</span>?
             </h2>
             
@@ -66,6 +66,7 @@ const WhyChooseUs = () => {
                   src='https://res.cloudinary.com/ddcwoi5kp/image/upload/v1771179629/sigiriya_yk2s1z.jpg'
                   alt='Sri Lanka Temple'
                   fill
+                  sizes="(min-width: 1024px) 50vw, 100vw"
                   className='object-cover hover:scale-110 transition-transform duration-500'
                 />
               </div>
@@ -77,6 +78,7 @@ const WhyChooseUs = () => {
                 src='https://res.cloudinary.com/ddcwoi5kp/image/upload/v1771178781/elephants_gang_dfdsrx.jpg'
                 alt='Wildlife Safari'
                 fill
+                sizes="(min-width: 1024px) 50vw, 100vw"
                 className='object-cover hover:scale-110 transition-transform duration-500'
               />
             </div>
@@ -87,6 +89,7 @@ const WhyChooseUs = () => {
                 src='https://res.cloudinary.com/ddcwoi5kp/image/upload/v1771178783/buddha_dttojq.jpg'
                 alt='Pristine Beaches'
                 fill
+                sizes="(min-width: 1024px) 50vw, 100vw"
                 className='object-cover hover:scale-110 transition-transform duration-500'
               />
             </div>
@@ -97,6 +100,7 @@ const WhyChooseUs = () => {
                 src='https://res.cloudinary.com/ddcwoi5kp/image/upload/v1771178782/tea_xjeuvy.jpg'
                 alt='Tea Plantations'
                 fill
+                sizes="(min-width: 1024px) 50vw, 100vw"
                 className='object-cover hover:scale-110 transition-transform duration-500'
               />
             </div>

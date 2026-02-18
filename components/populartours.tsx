@@ -15,8 +15,8 @@ const Populartours = ({ tours }: { tours: TourCard[] }) => {
   return (
     <div>
     <div className="grid grid-cols-1 gap-1 p-8">
-        <div className='mx-auto text-4xl p-2'>Popular Tours</div>
-        <div className='flex items-center mx-auto text-sm font-semibold text-red-500 hover:text-cyan-700 hover:cursor-pointer'>View all Popular Tours<AiOutlineArrowRight/></div>
+        <div className='mx-auto text-4xl lg:text-4xl font-bold text-gray-800'>Popular Tours</div>
+        <div className='flex items-center mx-auto text-sm font-semibold text-red-500 hover:text-cyan-700 hover:cursor-pointer'>View all Tours<AiOutlineArrowRight/></div>
         </div>
         <div>
         <div className='grid max-lg:grid-cols-1 lg:grid-cols-3 px-6 justify-center items-center mb-11'>
